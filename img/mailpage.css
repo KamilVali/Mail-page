@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: black !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* LOGO */
+.divlogo {
+    background-image: url(./mailogo.JPG);
+    width: 20%;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 45%;
+    margin-top: 25px;
+    ;
+}
+
+/* SEARCH SECTION */
+.divsearch {
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    margin-left: 42%;
+}
+
+#inputsearch {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    color: #E40613;
+    border-color: #E40613;
+}
+
+.btn {
+    background-color: #E40613;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #E40613;
+}
+
+/* LEFT SIDE */
+.actionbtns {
+    width: 100%;
+}
+
+.compose {
+    width: 100%;
+}
+
+.composebutton {
+    margin-top: 0;
+    color: #E40613;
+    padding: 12px 16px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-left: 20%;
+}
+
+.deletebutton {
+    font-size: 50px;
+    color: #E40613;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin-left: 60%;
+}
+
+.composebutton:hover {
+    color: black;
+    background-color: #E40613;
+}
+
+.deletebutton:hover {
+    color: black;
+    background-color: #E40613;
+}
+
+/* SECTION */
+.mainsection {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.leftside {
+    border: 1px #E40613 solid;
+    width: 15%;
+    height: 375px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftside>h3 {
+    color: #E40613;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 1%;
+    height: 40px;
+    text-align: center;
+}
+
+hr {
+    background-color: #E40613;
+    height: 1px;
+    border: none;
+}
+
+.leftbuttons {
+    width: 150px;
+    height: 50px;
+    border: 1px #E40613 solid;
+    color: #E40613;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.material-symbols-outlined {
+    color: #E40613;
+    /* padding: 12px 16px; */
+    background-color: transparent;
+    font-size: 20px;
+    float: left;
+    margin-left: 10%;
+}
+
+.leftbuttons:hover {
+    background-color: #E40613;
+    color: black;
+}
+
+.leftbuttons:hover .material-symbols-outlined {
+    color: black;
+}
+
+.divtable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 55%;
+    height: 375px;
+    border: 1px #E40613 solid;
+    text-align: center;
+}
+
+.righttable {
+    width: 100%;
+}
+
+#th1 {
+    width: 60px;
+}
+
+#th2 {
+    width: 150px;
+}
+
+#th4 {
+    width: 150px;
+}
+th,
+td {
+    color: #E40613;
+    border: 1px solid #E40613;
+    height: 30px;
+}
+.card, .xbttn, .clr, .clr{
+    height: 25px;
+}
+.card {
+    position: fixed;
+    left: 40%;
+    top: 10%;
+    width: 500px;
+    height: 500px;
+   border: #E40613 1px solid;
+   display: flex;
+   flex-direction: column;
+   display: none;
+}
+#email{
+    height: 400px;
+    width: 500px;
+    color: #E40613;
+    background-color: black;
+}
+
+.xbttn {
+    width: 10%;
+}
+
+.clr {
+    background-color: black;
+    color: #E40613;
+}
+
+.bttn {
+    background-color: black;
+    color: #E40613;
+    height: 50px;
+    font-weight: 900;
+}
+
+.bttn:hover {
+    color: black;
+    background-color: #E40613;
+    cursor: pointer;
+}

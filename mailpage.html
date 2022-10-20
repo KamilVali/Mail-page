@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./img/mailpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="divlogo"></div>
+    <div class="divsearch">
+        <input type="text" placeholder="search here" id="inputsearch">
+        <button class="btn"><i class="fa fa-search"></i></button>
+    </div>
+    <div class="actionbtns">
+        <diV class="compose">
+            <button type="button" class="composebutton"><i class="fa fa-folder"></i></button>
+            <button type="button" class="deletebutton" ><i class="fa fa-trash"></i></button>
+        </diV>
+        <section class="mainsection">
+            <div class="leftside">
+                <h3>FOLDERS</h3>
+                <hr>
+                <button type="button" class="leftbuttons"><span class="material-symbols-outlined">
+                        inbox</span> Inbox</button>
+
+                <button type="button" class="leftbuttons"><span class="material-symbols-outlined">
+                        hotel_class</span> Starred</button>
+
+                <button type="button" class="leftbuttons"><span class="material-symbols-outlined">
+                        bookmarks
+                    </span>Important</button>
+                <button type="button" class="leftbuttons"><span class="material-symbols-outlined">
+                        mark_email_read
+                    </span>Sent</button>
+                <button type="button" class="leftbuttons"><span class="material-symbols-outlined">
+                        edit_document
+                    </span>Draft</button>
+            </div>
+            <div class="divtable">
+                <table class="righttable">
+                    <thead>
+                        <tr>
+                            <th id="th1"><input type="checkbox" id="all" onclick="checking()"> All</th>
+                            <th id="th2">To</th>
+                            <th>Subject</th>
+                            <th id="th4">Date</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="box"></td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                </table>
+            </div>
+        </Section>
+            <form class="card" action="/action_page.php">
+                <input class="clr" id="To" type="text" placeholder="To">
+                <input class="clr" type="text" placeholder="CC">
+                <input class="clr"  type="text" placeholder="BCC">
+                <input class="clr" id="subject" type="text" placeholder="Subject">
+                <textarea id="email" rows="100" cols="500" name="usrtxt" wrap="hard">
+                    At W3Schools you will find free Web-building tutorials.
+                </textarea>
+                <button class="bttn" type="button">Send</button>
+            </form>
+        </div>
+        <script src="./img/mailpage.js"></script>
+</body>
+
+</html>
